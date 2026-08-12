@@ -12,3 +12,5 @@ function LinkedListCycle(head) {
     }
     return false
 }
+
+console.log(LinkedListCycle())

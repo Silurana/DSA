@@ -5,7 +5,6 @@ class TreeNode {
         this.right = right
     }
 }
-
 function inorderTrav(root) {
     let res = []
     inOrder(root, res)
@@ -31,5 +30,4 @@ root.right.right = new TreeNode(3)
 root.right.right = new TreeNode(6)
 
 const res = inorderTrav(root)
-
 console.log("Inorder Traversal:", res);
